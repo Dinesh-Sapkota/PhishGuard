@@ -20,8 +20,8 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { analyzeUrl, PhishingAnalysis } from '.geminiService';
-import { useBehaviorMonitor } from '.useBehaviorMonitor';
+import { analyzeUrl, PhishingAnalysis } from 'geminiService';
+import { useBehaviorMonitor } from 'useBehaviorMonitor';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
